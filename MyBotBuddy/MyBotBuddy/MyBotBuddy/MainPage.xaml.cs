@@ -14,5 +14,11 @@ namespace MyBotBuddy
         {
             InitializeComponent();
         }
+
+        async void GoButtonClickedAsync(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushModalAsync(new MainPage());
+        }
+
     }
 }
