@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotBuddy.NameBot"
+             BackgroundImageSource="bg">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start"
+                     Spacing="50"
+                     Margin="30,84,30,0">
+
+            <Image VerticalOptions="Center"
+                   Source="bot_default"
+                   HeightRequest="200"/>
+
+            <Label Text="Name your Bot"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="30"/>
+
+            <Entry Text=""
+                   Placeholder="My Bot Name"
+                   BackgroundColor="White"
+                   Margin="10,0,10,0"
+                   TextColor="DarkGray"
+                   x:Name="MainEntry"/>
+
+            <Button Text="Save"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    WidthRequest="200"
+                    Clicked="SaveBotClicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotBuddy.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout VerticalOptions="CenterAndExpand">
+
+        <Image VerticalOptions="CenterAndExpand"
+               Source="bot_default"
+               HeightRequest="350"/>
+
+        <Label Text="Welcome"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               TextColor="Black"
+               FontAttributes="Bold"
+               FontSize="30"
+               Margin="0,0,0,20"/>
+
+        <Button Text="Begin"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                TextColor="Black"
+                BackgroundColor="LightGray"
+                FontAttributes="Bold"
+                FontSize="25"
+                WidthRequest="200"
+                Clicked="BeginButtonClicked"/>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotBuddy.Game">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+            <!-- FRAME 1 -->
+            <Frame BackgroundColor="White"
+                   Grid.Row="0" 
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Grid.RowSpan="2"
+                   Margin="50,50,50,50">
+
+                <Label Text="Play tic-tac-toe"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,10,0,0"
+                       x:Name="botName"/>
+            </Frame>
+
+            <!-- INSTRUCTIONS -->
+            <Label Text="Click on a tile to begin the game"
+                   Grid.Row="0" 
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Grid.RowSpan="2"
+                   HorizontalOptions="Center"
+                   Margin="0,110,0,0"
+                   FontSize="18"/>
+            
+            <!-- BACK -->
+            <Button Text="Done"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Margin="80,10,80,20"
+                    BackgroundColor="#021D30"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    Clicked="DoneButtonClicked"/>
+
+            <!-- TIC TAC TOE BUTTONS -->
+            <Button Text=""
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="A1"
+                    Clicked="A1_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="A2"
+                    Clicked="A2_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="A3"
+                    Clicked="A3_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="B1"
+                    Clicked="B1_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="B2"
+                    Clicked="B2_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="B3"
+                    Clicked="B3_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="C1"
+                    Clicked="C1_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="C2"
+                    Clicked="C2_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+            <Button Text=""
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    BackgroundColor="White"
+                    Margin="20,10,20,10"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    x:Name="C3"
+                    Clicked="C3_Clicked"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    CornerRadius="10"/>
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

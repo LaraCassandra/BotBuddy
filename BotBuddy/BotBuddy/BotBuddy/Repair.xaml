@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotBuddy.Repair">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- FRAME 1 -->
+            <Frame BackgroundColor="White"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="4"
+                   Grid.RowSpan="2"
+                   Margin="50, 50, 50, 50">
+
+                <Label Text="Repair your Bot"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,10,0,0"
+                       x:Name="botName"/>
+            </Frame>
+
+            <!-- INSTRUCTIONS -->
+            <Label Text="Solve the equation to repair"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="4"
+                   Grid.RowSpan="2"
+                   HorizontalOptions="Center"
+                   Margin="0,110,0,0"
+                   FontSize="18"/>
+
+            <!-- DONE BUTTON -->
+            <Button Text="Done"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="2"
+                    Margin="0,0,0,20"
+                    BackgroundColor="#021D30"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    Clicked="DoneButtonClicked"/>
+            
+            <!-- EQUATION VIEW -->
+            <Label Grid.Row="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Text="Equation"
+                   TextColor="Black"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   BackgroundColor="White"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   x:Name="equation"/>
+
+            <Entry Text=""
+                   Grid.Column="1"
+                   Grid.Row="4"
+                   Grid.ColumnSpan="2"
+                   BackgroundColor="White"
+                   TextColor="DarkGray"
+                   Margin="0,10,0,10"
+                   x:Name="userAnswer"/>
+            
+            
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

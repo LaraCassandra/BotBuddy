@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BotBuddy.Home"
+             BackgroundImageSource="bg">
+    <ContentPage.Content>
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- FRAME 1 -->
+            <Frame BackgroundColor="White"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="5"
+                   Grid.RowSpan="2"
+                   Margin="50, 50, 50, 50">
+
+                <Label Text="Bot Name"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Margin="0,10,0,0"
+                       x:Name="botNameLabel"/>
+            </Frame>
+
+            <!-- LEVEL -->
+            <Label Text="Level 1"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="5"
+                   Grid.RowSpan="2"
+                   HorizontalOptions="Center"
+                   Margin="0,55,0,0"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   x:Name="levelLabel"/>
+
+            <!-- EXPERIENCE -->
+            <Label Text="100xp"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="5"
+                   Grid.RowSpan="2"
+                   HorizontalOptions="Center"
+                   Margin="0,110,0,0"
+                   FontSize="18"
+                   x:Name="xpLabel"/>
+
+            <!-- BOT IMAGE -->
+                <Image Source="bot_default"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"
+                       Grid.RowSpan="5"
+                       Margin="50, 150, 0, 0"
+                       x:Name="botImage"/>
+
+            <!-- ATTENTION BUTTON -->
+            <ImageButton Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         Grid.Row="2"
+                         Margin="50,0,20,10"
+                         BackgroundColor="White"
+                         CornerRadius="10"
+                         Padding="15"
+                         Source="heart"
+                         Clicked="loveButtonClicked"
+                         x:Name="loveButton"/>
+
+            <!-- CLEAN BUTTON -->
+            <ImageButton Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         Grid.Row="3"
+                         Margin="50,0,20,10"
+                         BackgroundColor="White"
+                         CornerRadius="10"
+                         Padding="15"
+                         Source="sponge"
+                         Clicked="cleanButtonClicked"/>
+
+            <!-- FEED BUTTON -->
+            <ImageButton Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         Grid.Row="4"
+                         Margin="50,0,20,10"
+                         BackgroundColor="White"
+                         CornerRadius="10"
+                         Padding="15"
+                         Source="fuel"
+                         Clicked="feedButtonClicked"/>
+
+            <!-- REPAIR BUTTON -->
+            <ImageButton Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         Grid.Row="5"
+                         Margin="50,0,20,10"
+                         BackgroundColor="White"
+                         CornerRadius="10"
+                         Padding="15"
+                         Source="wrench"
+                         Clicked="repairButtonClicked"/>
+
+            <!-- GAME BUTTON -->
+            <ImageButton Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         Grid.Row="6"
+                         Margin="50,0,20,10"
+                         BackgroundColor="White"
+                         CornerRadius="10"
+                         Padding="15"
+                         Source="game"
+                         Clicked="gameButtonClicked"/>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
