@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rmkU1MvdcIiNhETAzTWNFRkAX5Pjr6gGbYHoock7tPxWi2drX3fCX3uFcKPthbLlbEeRt0UbiHvCJxRbUbVYvA==",
+  "dgSpecHash": "JZ5HdtkJFFD2bG4G0goO4EEDhPBXkoqCAnv8cJdL5McJFAR0jS8EWDxi2sO6+LJGRxorUfbHZpSIkqHuTpGudA==",
   "success": true,
-  "projectFilePath": "E:\\BotBuddy\\BotBuddy\\BotBuddy\\BotBuddy.csproj",
+  "projectFilePath": "D:\\Open Window\\Final Presentation\\BotBuddy\\BotBuddy\\BotBuddy\\BotBuddy\\BotBuddy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

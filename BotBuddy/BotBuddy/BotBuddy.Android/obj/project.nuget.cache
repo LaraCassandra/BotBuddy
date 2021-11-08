@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7smMHoOxUknA3KPfEhSLvHKQNsjKqa38fwjVKT/JjGhMO16zcYZ/z6jO9XUe0Hu/V8HFFKn79CJIxt/BJ7FA4A==",
+  "dgSpecHash": "qJnASYirsK9UjW5ADUGek5x/VT50CxQ4symG7skubv7d248MoPz/SUchttqAHhDJdNjccfCDHpKzupxnYN4cTA==",
   "success": true,
-  "projectFilePath": "E:\\BotBuddy\\BotBuddy\\BotBuddy.Android\\BotBuddy.Android.csproj",
+  "projectFilePath": "D:\\Open Window\\Final Presentation\\BotBuddy\\BotBuddy\\BotBuddy\\BotBuddy.Android\\BotBuddy.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

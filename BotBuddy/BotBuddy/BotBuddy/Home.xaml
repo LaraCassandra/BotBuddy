@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BotBuddy.Home"
-             BackgroundImageSource="bg">
+             BackgroundColor="White"
+>
     <ContentPage.Content>
 
         <Grid>
@@ -22,23 +23,23 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- FRAME 1 -->
-            <Frame BackgroundColor="White"
+            <!-- EXPERIENCE -->
+            <Label Text="100xp"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="5"
                    Grid.RowSpan="2"
-                   Margin="50, 50, 50, 50">
-
-                <Label Text="Bot Name"
-                       TextColor="Black"
-                       HorizontalOptions="Center"
-                       FontSize="22"
-                       FontAttributes="Bold"
-                       Margin="0,10,0,0"
-                       x:Name="botNameLabel"/>
-            </Frame>
+                   HorizontalOptions="Center"
+                   Margin="0,110,0,0"
+                   FontSize="18"
+                   x:Name="xpLabel"/>
 
             <!-- LEVEL -->
             <Label Text="Level 1"
@@ -51,78 +52,80 @@
                    FontAttributes="Bold"
                    x:Name="levelLabel"/>
 
-            <!-- EXPERIENCE -->
-            <Label Text="100xp"
+            <!-- NAME -->
+            <Label Text="Bot Name"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="5"
                    Grid.RowSpan="2"
+                   TextColor="Black"
                    HorizontalOptions="Center"
-                   Margin="0,110,0,0"
-                   FontSize="18"
-                   x:Name="xpLabel"/>
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,0"
+                    x:Name="botNameLabel"/>
 
             <!-- BOT IMAGE -->
                 <Image Source="bot_default"
-                       Grid.Row="1"
+                       Grid.Row="0"
                        Grid.Column="0"
-                       Grid.ColumnSpan="3"
-                       Grid.RowSpan="5"
+                       Grid.ColumnSpan="8"
+                       Grid.RowSpan="6"
                        Margin="50, 150, 0, 0"
                        x:Name="botImage"/>
 
             <!-- ATTENTION BUTTON -->
-            <ImageButton Grid.Column="3"
+            <ImageButton Grid.Column="0"
                          Grid.ColumnSpan="2"
-                         Grid.Row="2"
-                         Margin="50,0,20,10"
+                         Grid.Row="5"
+                         Margin="7,7,7,7"
                          BackgroundColor="White"
                          CornerRadius="10"
-                         Padding="15"
+                         Padding="5"
                          Source="heart"
                          Clicked="loveButtonClicked"
                          x:Name="loveButton"/>
 
             <!-- CLEAN BUTTON -->
-            <ImageButton Grid.Column="3"
+            <ImageButton Grid.Column="2"
                          Grid.ColumnSpan="2"
-                         Grid.Row="3"
-                         Margin="50,0,20,10"
+                         Grid.Row="5"
+                         Margin="7,7,7,7"
                          BackgroundColor="White"
                          CornerRadius="10"
-                         Padding="15"
+                         Padding="7"
                          Source="sponge"
                          Clicked="cleanButtonClicked"/>
 
             <!-- FEED BUTTON -->
-            <ImageButton Grid.Column="3"
+            <ImageButton Grid.Column="4"
                          Grid.ColumnSpan="2"
-                         Grid.Row="4"
-                         Margin="50,0,20,10"
+                         Grid.Row="5"
+                         Margin="7,7,7,7"
                          BackgroundColor="White"
                          CornerRadius="10"
-                         Padding="15"
+                         Padding="7"
                          Source="fuel"
                          Clicked="feedButtonClicked"/>
 
             <!-- REPAIR BUTTON -->
-            <ImageButton Grid.Column="3"
+            <ImageButton Grid.Column="6"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="50,0,20,10"
+                         Margin="7,7,7,7"
                          BackgroundColor="White"
                          CornerRadius="10"
-                         Padding="15"
+                         Padding="7"
                          Source="wrench"
                          Clicked="repairButtonClicked"/>
 
             <!-- GAME BUTTON -->
-            <ImageButton Grid.Column="3"
+            <ImageButton Grid.Column="8"
                          Grid.ColumnSpan="2"
-                         Grid.Row="6"
-                         Margin="50,0,20,10"
+                         Grid.Row="5"
+                         Margin="7,7,7,7"
                          BackgroundColor="White"
                          CornerRadius="10"
-                         Padding="15"
+                         Padding="7"
                          Source="game"
                          Clicked="gameButtonClicked"/>
 

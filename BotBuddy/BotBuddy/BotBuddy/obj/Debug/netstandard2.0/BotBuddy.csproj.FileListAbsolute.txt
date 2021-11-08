@@ -37,3 +37,24 @@ E:\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.dll
 E:\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\ref\BotBuddy.dll
 E:\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.pdb
 E:\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Game.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\bin\Debug\netstandard2.0\BotBuddy.deps.json
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\bin\Debug\netstandard2.0\BotBuddy.dll
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\bin\Debug\netstandard2.0\ref\BotBuddy.dll
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\bin\Debug\netstandard2.0\BotBuddy.pdb
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.csproj.AssemblyReference.cache
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Clean.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Feed.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Game.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Home.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\NameBot.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\Repair.xaml.g.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.AssemblyInfoInputs.cache
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.AssemblyInfo.cs
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.csproj.CoreCompileInputs.cache
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.dll
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\ref\BotBuddy.dll
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy\obj\Debug\netstandard2.0\BotBuddy.pdb

@@ -82,13 +82,16 @@
     <ImageAsset Include="Assets.xcassets\bot_error.imageset\bot_error.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bot_happy.imageset\bot_happy.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_happy.imageset\bot_happy1.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_hungry.imageset\bot_hungry.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\bot_normal.imageset\bot_default.png">
+    <ImageAsset Include="Assets.xcassets\bot_normal.imageset\bot_normal.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_sad.imageset\bot_sad.png">
@@ -133,13 +136,13 @@
     <ImageAsset Include="Assets.xcassets\gas.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\bot_dirty.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_error.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_hungry.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bot_dirty.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\pizza.imageset\Contents.json">
