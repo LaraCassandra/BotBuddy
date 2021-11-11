@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- FRAME 1 -->
+            <!-- PAGE -->
             <Label Text="Oh no! Your bot is dirty!"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="4"

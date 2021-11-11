@@ -16,6 +16,7 @@ namespace BotBuddy
 
         /* CREATE AN INSTANCE OF THE BOT OBJECT */
         private Bot bot = new Bot();
+
         public Clean()
         {
             InitializeComponent();
@@ -48,6 +49,8 @@ namespace BotBuddy
         {
             await Navigation.PushModalAsync(new Home());
         }
+
+
 
     }
 }

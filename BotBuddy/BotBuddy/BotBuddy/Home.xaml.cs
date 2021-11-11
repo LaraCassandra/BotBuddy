@@ -117,19 +117,22 @@ namespace BotBuddy
         }
 
 
-
+        
         /* RESET BOT AFTER TIME */
         private async void BotSad()
         {
-            await DisplayAlert("Oh No!", "Your Bot has Malfunctioned", "New Bot");
+            bool isDone = false;
+            if (isDone == false) {
+
+                await DisplayAlert("Oh No!", "Your Bot has Malfunctioned", "New Bot");
+
+            }
 
             bot.Xp = 0;
             bot.CurrentBotState = BotState.happy;
             ResetTimer();
-
             updateUI();
         }
-
 
 
         /* CREATE AN INSTANCE OF TIMEKEEPER OBJECTS */
@@ -226,11 +229,11 @@ namespace BotBuddy
 
             BotState newBotState = bot.CurrentBotState;
 
-            if (timeElapsed.TotalSeconds < 100)
+            if (timeElapsed.TotalSeconds <= 100)
             {
                 newBotState = BotState.happy;
             }
-            else if (timeElapsed.TotalSeconds < 200)
+            else if (timeElapsed.TotalSeconds <= 200)
             {
                 newBotState = BotState.normal;
             }

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BotBuddy.Repair">
+             x:Class="BotBuddy.Repair"
+             BackgroundColor="White">
     <ContentPage.Content>
 
         <Grid>
@@ -55,7 +56,12 @@
                     BackgroundColor="#021D30"
                     TextColor="White"
                     FontAttributes="Bold"
-                    Clicked="DoneButtonClicked"/>
+                    Clicked="DoneButtonClicked"
+                    CornerRadius="60"
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    FontSize="18"/>
             
             <!-- EQUATION VIEW -->
             <Label Grid.Row="3"

@@ -27,10 +27,16 @@ namespace BotBuddy
 
         async void SaveBotClicked(System.Object sender, System.EventArgs e)
         {
-
-            bot.BotName = MainEntry.Text;
-          
+            if (MainEntry.Text == "")
+            {
+                bot.BotName = "Bot Buddy";
+            }
+            else
+            {
+                bot.BotName = MainEntry.Text;
+            }
             await Navigation.PushModalAsync(new Home());
+
         }
     }
 }
