@@ -94,6 +94,9 @@
     <ImageAsset Include="Assets.xcassets\bot_normal.imageset\bot_normal.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bot_play.imageset\bot_play.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_sad.imageset\bot_sad.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -143,6 +146,9 @@
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bot_dirty.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bot_play.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\pizza.imageset\Contents.json">

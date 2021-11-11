@@ -23,28 +23,24 @@
             </Grid.ColumnDefinitions>
 
             <!-- FRAME 1 -->
-            <Frame BackgroundColor="White"
+            <Label Text="Your bot needs updates"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="4"
                    Grid.RowSpan="2"
-                   Margin="50, 50, 50, 50">
-
-                <Label Text="Repair your Bot"
-                       TextColor="Black"
-                       HorizontalOptions="Center"
-                       FontSize="22"
-                       FontAttributes="Bold"
-                       Margin="0,10,0,0"
-                       x:Name="botName"/>
-            </Frame>
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,80,0,0"
+                   x:Name="botName"/>
 
             <!-- INSTRUCTIONS -->
-            <Label Text="Solve the equation to repair"
+            <Label Text="Solve the equation to update"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="4"
                    Grid.RowSpan="2"
                    HorizontalOptions="Center"
-                   Margin="0,110,0,0"
+                   Margin="0,120,0,0"
                    FontSize="18"/>
 
             <!-- DONE BUTTON -->
@@ -64,7 +60,7 @@
                     FontSize="18"/>
             
             <!-- EQUATION VIEW -->
-            <Label Grid.Row="3"
+            <Label Grid.Row="4"
                    Grid.Column="1"
                    Grid.ColumnSpan="2"
                    Text="Equation"
@@ -78,14 +74,22 @@
 
             <Entry Text=""
                    Grid.Column="1"
-                   Grid.Row="4"
+                   Grid.Row="5"
                    Grid.ColumnSpan="2"
                    BackgroundColor="White"
                    TextColor="DarkGray"
                    Margin="0,10,0,10"
                    x:Name="userAnswer"/>
-            
-            
+
+            <!-- BOT IMAGE -->
+            <Image Source="bot_play"
+                       Grid.Row="2"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="4"
+                       Grid.RowSpan="2"
+                       x:Name="botImage"/>
+
+
 
         </Grid>
         
