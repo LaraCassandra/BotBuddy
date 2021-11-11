@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Pixel_3a_API_28</SelectedDevice>
     <DefaultDevice>Pixel_3a_API_28</DefaultDevice>
-    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
     <ActiveDebugProfile>Pixel_3a_API_28</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

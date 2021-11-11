@@ -1,37 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BotBuddy.NameBot">
+             x:Class="BotBuddy.NameBot"
+             BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Start"
-                     Spacing="50"
-                     Margin="30,84,30,0">
+        <StackLayout VerticalOptions="CenterAndExpand">
+            
 
             <Image VerticalOptions="Center"
-                   Source="bot_default"
-                   HeightRequest="200"/>
+                   Source="bot_happy"
+                   HeightRequest="350"/>
 
             <Label Text="Name your Bot"
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand"
-                   TextColor="White"
+                   TextColor="#021D30"
                    FontAttributes="Bold"
-                   FontSize="30"/>
+                   FontSize="20"/>
+
+            <Label Text="Enter a name for your bot below"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               TextColor="Black"
+               FontSize="18"
+               Margin="0,0,0,0"/>
 
             <Entry Text=""
-                   Placeholder="My Bot Name"
+                   Placeholder=" My Bot Name"
                    BackgroundColor="White"
-                   Margin="10,0,10,0"
+                   Margin="50,20,50,10"
                    TextColor="DarkGray"
-                   x:Name="MainEntry"/>
+                   FontSize="18"
+                   x:Name="MainEntry"
+                   HorizontalTextAlignment="Center"/>
 
             <Button Text="Save"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"
-                    TextColor="Black"
-                    BackgroundColor="White"
                     FontSize="18"
+                    TextColor="White"
+                    BackgroundColor="#021D30"
                     FontAttributes="Bold"
+                    CornerRadius="60"
                     WidthRequest="200"
                     Clicked="SaveBotClicked"/>
 

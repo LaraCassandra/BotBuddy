@@ -15,7 +15,6 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -31,22 +30,11 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- EXPERIENCE -->
-            <Label Text="Experience Points:"
-                   Grid.Row="0" 
-                   Grid.Column="1"
-                   Grid.ColumnSpan="6"
-                   Grid.RowSpan="2"
-                   HorizontalOptions="Center"
-                   Margin="0,20,0,0"
-                   FontSize="1"
-                   FontAttributes="Bold"
-                   x:Name="xpTitle"/>
-            
+            <!-- EXPERIENCE -->          
             <Label Text="100xp"
                    Grid.Row="0" 
-                   Grid.Column="3"
-                   Grid.ColumnSpan="7"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="10"
                    Grid.RowSpan="2"
                    HorizontalOptions="Center"
                    Margin="0,20,0,0"
@@ -84,14 +72,14 @@
                        Grid.Column="0"
                        Grid.ColumnSpan="10"
                        Grid.RowSpan="6"
-                       Margin="0, 50, 0, 0"
+                       Margin="10, 50, 10, 0"
                        x:Name="botImage"/>
 
             <!-- ATTENTION BUTTON -->
             <ImageButton Grid.Column="0"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="7,7,7,7"
+                         Margin="10,7,10,7"
                          BackgroundColor="White"
                          CornerRadius="10"
                          Padding="5"
@@ -103,7 +91,7 @@
             <ImageButton Grid.Column="2"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="7,7,7,7"
+                         Margin="10,7,10,7"
                          BackgroundColor="White"
                          CornerRadius="10"
                          Padding="7"
@@ -114,7 +102,7 @@
             <ImageButton Grid.Column="4"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="7,7,7,7"
+                         Margin="10,7,10,7"
                          BackgroundColor="White"
                          CornerRadius="10"
                          Padding="7"
@@ -125,7 +113,7 @@
             <ImageButton Grid.Column="6"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="7,7,7,7"
+                         Margin="10,7,10,7"
                          BackgroundColor="White"
                          CornerRadius="10"
                          Padding="7"
@@ -136,7 +124,7 @@
             <ImageButton Grid.Column="8"
                          Grid.ColumnSpan="2"
                          Grid.Row="5"
-                         Margin="7,7,7,7"
+                         Margin="10,7,10,7"
                          BackgroundColor="White"
                          CornerRadius="10"
                          Padding="7"

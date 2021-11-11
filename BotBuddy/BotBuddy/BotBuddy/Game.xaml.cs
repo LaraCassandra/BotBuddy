@@ -14,7 +14,7 @@ namespace BotBuddy
     public partial class Game : ContentPage
     {
 
-        /* CREATE AN INSTANCE OF THE BOT OBJECT */
+        /* CREATE AN INSTANCE OF The bot OBJECT */
         private Bot bot = new Bot();
 
         public Game()
@@ -117,13 +117,13 @@ namespace BotBuddy
             {
                 if (A1.Text == "O" && A2.Text == "O" && A3.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
 
@@ -134,13 +134,13 @@ namespace BotBuddy
             {
                 if (B1.Text == "O" && B2.Text == "O" && B3.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
 
@@ -152,13 +152,13 @@ namespace BotBuddy
             {
                 if (C1.Text == "O" && C2.Text == "O" && C3.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
 
@@ -171,13 +171,13 @@ namespace BotBuddy
             {
                 if (A1.Text == "O" && B1.Text == "O" && C1.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
                     
@@ -189,12 +189,12 @@ namespace BotBuddy
             {
                 if (A2.Text == "O" && B2.Text == "O" && C2.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
                 }
@@ -205,13 +205,13 @@ namespace BotBuddy
             {
                 if(A3.Text == "O" && B3.Text == "O" && C3.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
                 }
@@ -224,12 +224,12 @@ namespace BotBuddy
             {
                 if (A1.Text == "O" && B2.Text == "O" && C3.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
                 }
@@ -240,13 +240,13 @@ namespace BotBuddy
             {
                 if (A3.Text == "O" && B2.Text == "O" && C1.Text == "O")
                 {
-                    DisplayAlert("alert", "Oh no! the bot won", "ok");
+                    DisplayAlert("Oh no!", "The bot won, better luck next time!", "Okay");
                     Navigation.PushModalAsync(new Home());
 
                 }
                 else
                 {
-                    DisplayAlert("alert", "Congrats the player won", "ok");
+                    DisplayAlert("Well done!", "Congrats you won", "Okay");
                     bot.WinGame();
                     Navigation.PushModalAsync(new Home());
                 }
@@ -263,7 +263,7 @@ namespace BotBuddy
             
             if(A1.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -280,7 +280,7 @@ namespace BotBuddy
 
             if (A2.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -294,7 +294,7 @@ namespace BotBuddy
         {
             if (A3.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -308,7 +308,7 @@ namespace BotBuddy
         {
             if (B1.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -322,7 +322,7 @@ namespace BotBuddy
         {
             if (B2.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -336,7 +336,7 @@ namespace BotBuddy
         {
             if (B3.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -350,7 +350,7 @@ namespace BotBuddy
         {
             if (C1.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -364,7 +364,7 @@ namespace BotBuddy
         {
             if (C2.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {
@@ -379,7 +379,7 @@ namespace BotBuddy
         {
             if (C3.Text != "")
             {
-                DisplayAlert("alert", "You cant click here!", "ok");
+                DisplayAlert("alert", "You cant click here!", "Okay");
             }
             else
             {

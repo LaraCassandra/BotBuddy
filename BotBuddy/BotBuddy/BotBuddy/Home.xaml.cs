@@ -44,7 +44,7 @@ namespace BotBuddy
             {
                 botNameLabel.Text = bot.BotName;
                 levelLabel.Text = "Level " + Levels.GetLevelFromXp(botXp).ToString();
-                xpLabel.Text = botXp.ToString();
+                xpLabel.Text = "Experience points: " + botXp.ToString();
             }
             
             //botNameLabel.Text = bot.BotName2;
