@@ -19,52 +19,54 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- FRAME 1 -->
-            <Frame BackgroundColor="White"
-                   Grid.Row="0" 
-                   Grid.Column="0"
-                   Grid.ColumnSpan="3"
+            <!-- PAGE -->
+            <Label Text="Play tic-tac-toe"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="5"
                    Grid.RowSpan="2"
-                   Margin="50,50,50,50">
-
-                <Label Text="Play tic-tac-toe"
-                       TextColor="Black"
-                       HorizontalOptions="Center"
-                       FontSize="22"
-                       FontAttributes="Bold"
-                       Margin="0,10,0,0"
-                       x:Name="botName"/>
-            </Frame>
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,80,0,0"
+                   x:Name="botName"/>
 
             <!-- INSTRUCTIONS -->
             <Label Text="Click on a tile to begin the game"
                    Grid.Row="0" 
                    Grid.Column="0"
-                   Grid.ColumnSpan="3"
+                   Grid.ColumnSpan="5"
                    Grid.RowSpan="2"
                    HorizontalOptions="Center"
-                   Margin="0,110,0,0"
+                   Margin="0,120,0,0"
                    FontSize="18"/>
             
             <!-- BACK -->
             <Button Text="Done"
                     Grid.Row="5"
                     Grid.Column="0"
-                    Grid.ColumnSpan="3"
+                    Grid.ColumnSpan="5"
                     Margin="80,10,80,20"
                     BackgroundColor="#021D30"
                     TextColor="White"
                     FontAttributes="Bold"
-                    Clicked="DoneButtonClicked"/>
+                    Clicked="DoneButtonClicked"
+                    CornerRadius="60"
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    FontSize="18"/>
 
             <!-- TIC TAC TOE BUTTONS -->
             <Button Text=""
                     Grid.Row="2"
-                    Grid.Column="0"
+                    Grid.Column="1"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="A1"
@@ -75,9 +77,9 @@
 
             <Button Text=""
                     Grid.Row="2"
-                    Grid.Column="1"
+                    Grid.Column="2"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="A2"
@@ -88,9 +90,9 @@
 
             <Button Text=""
                     Grid.Row="2"
-                    Grid.Column="2"
+                    Grid.Column="3"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="A3"
@@ -101,9 +103,9 @@
 
             <Button Text=""
                     Grid.Row="3"
-                    Grid.Column="0"
+                    Grid.Column="1"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="B1"
@@ -114,9 +116,9 @@
 
             <Button Text=""
                     Grid.Row="3"
-                    Grid.Column="1"
+                    Grid.Column="2"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="B2"
@@ -127,9 +129,9 @@
 
             <Button Text=""
                     Grid.Row="3"
-                    Grid.Column="2"
+                    Grid.Column="3"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="B3"
@@ -140,9 +142,9 @@
 
             <Button Text=""
                     Grid.Row="4"
-                    Grid.Column="0"
+                    Grid.Column="1"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="C1"
@@ -153,9 +155,9 @@
 
             <Button Text=""
                     Grid.Row="4"
-                    Grid.Column="1"
+                    Grid.Column="2"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="C2"
@@ -166,9 +168,9 @@
 
             <Button Text=""
                     Grid.Row="4"
-                    Grid.Column="2"
+                    Grid.Column="3"
                     BackgroundColor="White"
-                    Margin="20,10,20,10"
+                    Margin="0,10,0,10"
                     TextColor="Black"
                     FontAttributes="Bold"
                     x:Name="C3"

@@ -1522,3 +1522,4 @@ D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy.Android\ob
 D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Open Window\Final Presentation\BotBuddy\BotBuddy\BotBuddy\BotBuddy.Android\obj\Debug\90\res\drawable\bot_play.png
