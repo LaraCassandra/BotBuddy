@@ -77,7 +77,7 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1][Images/image-1.png]
+![image1][image1]
 
 ### Project Description
 
@@ -129,32 +129,32 @@ Here are some ways you can clone the repository:
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
 ## Features and Functionality
 
-![image2][Images/image-2.png]
+![image2][image2]
 ### Name your Bot
 
 Name your Bot Buddy whatever your heart may desire
 
-![image3][Images/image-3.png]
+![image3][image3]
 ### Take care of your bot
 
 Take care of your Bot Buddy with attention and other interactions
 
-![image4][Images/image-4.png]
+![image4][image4]
 ### Clean your bot
 
 Robots get dusty, clean the dirt off your buddy
 
-![image5][Images/image-5]
+![image5][image5]
 ### Feed your bot
 
 Feed your bot, but only what it needs... or else...
 
-![image6][Images/image-6]
+![image6][image6]
 ### Conduct repairs on your bot
 
 Make sure your bot is up to date
 
-![image7][Images/image-7.png]
+![image7][image7]
 ### Play tic-tac-toe against your bot
 
 Play a game of tic-tac-toe to keep your bot entertained
@@ -167,11 +167,11 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image8][Images/image-8.png]
+![image8][image8]
 
 ### Wireframes
 
-![image9][Images/image-9.png]
+![image9][image9]
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -235,7 +235,7 @@ Not applicable
 
 ### Mockups
 
-![image10][Images/image-10.png]
+![image10][image10]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
