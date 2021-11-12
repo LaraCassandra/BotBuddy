@@ -19,7 +19,7 @@
 <p align="center">
 
   <a href="https://github.com/LaraCassandra/BotBuddy">
-    <img src="path/to/logo" alt="Logo" width="140" height="140">
+    <img src="Images/logo.png" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">My Bot Buddy</h3>
