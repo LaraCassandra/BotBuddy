@@ -3,18 +3,18 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/LaraCassandra/BotBuddy?color=%000000)
-![GitHub watchers](https://img.shields.io/github/watchers/LaraCassandra/BotBuddy?color=%000000)
-![GitHub language count](https://img.shields.io/github/languages/count/LaraCassandra/BotBuddy?color=%000000)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LaraCassandra/BotBuddy?color=%000000)
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Instagram][instagram-shield]][instagram-url]
-[![Behance][behance-shield]][behance-url]
+![GitHub repo size](https://img.shields.io/github/languages/code-size/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/laracassandra/]
+<!-- [![Instagram][instagram-shield]][instagram-url]
+[![Behance][behance-shield]][behance-url] -->
 
 <!-- HEADER SECTION -->
-<h5 align="center" style="padding:0;margin:0;">Your Name & Surname</h5>
-<h5 align="center" style="padding:0;margin:0;">Student Number</h5>
-<h6 align="center">Subject Name & Year</h6>
+<h5 align="center" style="padding:0;margin:0;">Lara Cook</h5>
+<h5 align="center" style="padding:0;margin:0;">190218</h5>
+<h6 align="center">IDV 301</h6>
 </br>
 <p align="center">
 
@@ -22,10 +22,10 @@
     <img src="path/to/logo" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">My Bot Buddy</h3>
 
   <p align="center">
-    Short Project Slogan / Description <br>
+    A Virtual Robot Pet <br>
       <a href="https://github.com/LaraCassandra/BotBuddy"><strong>Explore the docs »</strong></a>
    <br />
    <br />
@@ -38,49 +38,60 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Project Description](#project-description)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [How to install](#how-to-install)
-* [Features and Functionality](#features-and-functionality)
-* [Concept Process](#concept-process)
-   * [Ideation](#ideation)
-   * [Wireframes](#wireframes)
-   * [User-flow](#user-flow)
-* [Development Process](#development-process)
-   * [Implementation Process](#implementation-process)
-        * [Highlights](#highlights)
-        * [Challenges](#challenges)
-   * [Reviews and Testing](#peer-reviews)
-        * [Feedback from Reviews](#feedback-from-reviews)
-        * [Unit Tests](#unit-tests)
-   * [Future Implementation](#peer-reviews)
-* [Final Outcome](#final-outcome)
-    * [Mockups](#mockups)
-    * [Video Demonstration](#video-demonstration)
-* [Conclusion](#conclusion)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+- [Table of Contents](#table-of-contents)
+- [About the Project](#about-the-project)
+  - [Project Description](#project-description)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [How to install](#how-to-install)
+  - [Installation](#installation)
+- [Features and Functionality](#features-and-functionality)
+  - [Name your Bot](#name-your-bot)
+  - [Take care of your bot](#take-care-of-your-bot)
+  - [Clean your bot](#clean-your-bot)
+  - [Feed your bot](#feed-your-bot)
+  - [Conduct repairs on your bot](#conduct-repairs-on-your-bot)
+  - [Play tic-tac-toe against your bot](#play-tic-tac-toe-against-your-bot)
+- [Concept Process](#concept-process)
+  - [Ideation](#ideation)
+  - [Wireframes](#wireframes)
+  - [User-flow](#user-flow)
+- [Development Process](#development-process)
+  - [Implementation Process](#implementation-process)
+    - [Highlights](#highlights)
+    - [Challenges](#challenges)
+  - [Reviews & Testing](#reviews--testing)
+    - [Feedback from Reviews](#feedback-from-reviews)
+    - [Unit Tests](#unit-tests)
+  - [Future Implementation](#future-implementation)
+- [Final Outcome](#final-outcome)
+  - [Mockups](#mockups)
+  - [Video Demonstration](#video-demonstration)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1][image1]
+![image1][Images/image-1.png]
 
 ### Project Description
 
-A nice introduction to this amazing project of mine.
+Technology is becoming more prominent in our everyday lives, the notion of robots and robotics integrating into society is quickly becoming normalised and accepted by most. As a developer, I form a part of the movement of technology and so it is important that learn how it can be better integrated to suit the users and the masses.
+
+My Bot Buddy is a virtual pet application that allows you to look after your cute little robot friend by performing several interactions that keep it alive and happy. Whilst being a fun and lighthearted theme, I specifically targeted My Bot Buddy to help users become more informed of robots and view them in a positive light.
 
 ### Built With
 
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
+* [Xamarin.Forms](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [Github](https://github.com/)
+* [Visual Studio](https://visualstudio.microsoft.com/)
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -90,57 +101,64 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [Software](path/to/where/they/can/download/software) installed on your machine. The [Plugin](path/to/where/they/can/download/plugin) plugin will also be required.
+Ensure that you have the latest version of [Visual Studio Community Edition](https://visualstudio.microsoft.com/downloads/) installed on your machine.
 
 ### How to install
 
 ### Installation
-Here are a couple of ways to clone this repo:
+Here are some ways you can clone the repository:
 
-1. Software </br>
-`Android Studio` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
-Enter `https://github.com/LaraCassandra/BotBuddy.git` into the URL field and press the `Clone` button.
+1. Clone Repository </br>
 
-2. Clone Repository </br>
-Run the following in the command-line to clone the project:
    ```sh
    git clone https://github.com/LaraCassandra/BotBuddy.git
    ```
-    Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
+    Open `Visual Studio` and select `File | Open | Project/solution...` from the menu. Select cloned directory and press `Open` button
 
-3. Install Dependencies </br>
-Run the following in the command-line to install all the required dependencies:
+<br>
+
+2. Open in Visual Studio </br>
+    Open `Visual Studio` and select `Clone a repository` from the Getting Started Section. Add the repository url to the repository location text field.
    ```sh
-   npm install
+   https://github.com/LaraCassandra/BotBuddy.git
    ```
+    Then press `Clone`.
 
-4. Get a free API Key at [https://example.com](https://example.com) and enter it in the `config.js` file:
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
 ## Features and Functionality
 
-![image2][image2]
-### Feature 1
+![image2][Images/image-2.png]
+### Name your Bot
 
-Description of Feature
+Name your Bot Buddy whatever your heart may desire
 
-![image3][image3]
-### Feature 2
+![image3][Images/image-3.png]
+### Take care of your bot
 
-Description of Feature
+Take care of your Bot Buddy with attention and other interactions
 
-![image4][image4]
-### Feature 3
+![image4][Images/image-4.png]
+### Clean your bot
 
-Description of Feature
+Robots get dusty, clean the dirt off your buddy
 
-![image5][image5]
+![image5][Images/image-5]
+### Feed your bot
 
+Feed your bot, but only what it needs... or else...
+
+![image6][Images/image-6]
+### Conduct repairs on your bot
+
+Make sure your bot is up to date
+
+![image6][Images/image-7]
+### Play tic-tac-toe against your bot
+
+Play a game of tic-tac-toe to keep your bot entertained
 
 <!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
