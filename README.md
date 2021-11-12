@@ -56,7 +56,6 @@
 - [Concept Process](#concept-process)
   - [Ideation](#ideation)
   - [Wireframes](#wireframes)
-  - [User-flow](#user-flow)
 - [Development Process](#development-process)
   - [Implementation Process](#implementation-process)
     - [Highlights](#highlights)
@@ -155,7 +154,7 @@ Feed your bot, but only what it needs... or else...
 
 Make sure your bot is up to date
 
-![image6][Images/image-7]
+![image7][Images/image-7.png]
 ### Play tic-tac-toe against your bot
 
 Play a game of tic-tac-toe to keep your bot entertained
@@ -168,17 +167,11 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image5][image5]
-<br>
-![image6][image6]
+![image8][Images/image-8.png]
 
 ### Wireframes
 
-![image7][image7]
-
-### User-flow
-
-![image8][image8]
+![image9][Images/image-9.png]
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -188,52 +181,61 @@ The `Development Process` is the technical implementations and functionality don
 ### Implementation Process
 <!-- stipulate all of the functionality you included in the project -->
 
-* Made use of both `functionality` to implement a specific feature.
-* `MVC/MVVM` design architecture implemented.
-* `Plugin` for this.
-* ETC.
+* Made use of `OOP` to create `classes and objects` to hold 
+the information of the bot buddy and 
+create the necessary functions, 
+interactions and timekeepers.
+* Used C#'s built-in `random function`  to get 
+random numbers which I used to make the 
+equations for the user to answer for the 
+repair interaction. I also used random to 
+implement the bot's response for the 
+tic-tac-toe game.
+* `Timekeeper` used to decay the 
+needs of the bot, the timer would 
+reset if there was an interaction, 
+otherwise if left long enough the bot 
+would eventually malfunction and a n
+ew bot would have to be made.
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* Sunshine.
-* Rainbows.
+* First time I've ever built a cross-platform `mobile application` which was very exciting
+* A unique and relevant `theme` for my virtual pet that made for my interactions to be quite different.
+* Challenging my to make a simple game of `tic-tac-toe` within my application and getting it *mostly* working :)
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Bugs.
-* Bugs.
+* Understanding the concept of `object-oriented programming` was and *is still* quite difficult to wrap my head around
+* Implementing `timekeepers` to decay the needs at different intervals without breaking the other timekeepers
+* Visual Studio `design preview` not working so I had to keep the emulator running to design my frontend
 
 ### Reviews & Testing
 <!-- stipulate how you've conducted testing in the form of peer reviews, feedback and also functionality testing, like unit tests (if applicable) -->
 
 #### Feedback from Reviews
 
-`Peer Reviews` were conducted by my fellow students and lecturer. The following feedback I found useful:
-
-* Feedback one.
-* Feedback two.
+Not applicable
 
 #### Unit Tests
 
-`Unit Tests` were conducted to establish working functionality. Here are all the tests that were ran:
-
-* Test 1 of this functionality
-* Test 2 of this functionality
+Not applicable
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* Future 1.
-* Future 2.
+* Improve and fix the `timekeeping` so that it does not break the application
+* Ability to `change name` or `type of robot`
+* Add a `progress bar` to show the health of the virtual pet
+* Implement more `interactions` when leveling up
+* Improve the overall aesthetics and interface
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
 ### Mockups
 
-![image9][image9]
-<br>
-![image10][image10]
+![image10][Images/image-10.png]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -271,30 +273,30 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Your Name & Surname** - [email@address](mailto:email@address) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
+* **Lara Cook** - [larac.cook@gmail.com](mailto:larac.cook@gmail.com)
 * **Project Link** - https://github.com/LaraCassandra/BotBuddy
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
+* Lecturer: Christof Enslin
+* [C# Documentation]([path/to/resource](https://docs.microsoft.com/en-us/dotnet/csharp/))
+* [Xamarin.Forms Documentation]([path/to/resource](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/))
+* [FreePik]([path/to/resource](https://www.freepik.com/home))
+* [FlatIcon]([path/to/resource](https://www.flaticon.com/))
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[image1]: /path/to/image.png
-[image2]: /path/to/image.png
-[image3]: /path/to/image.png
-[image4]: /path/to/image.png
-[image5]: /path/to/image.png
-[image6]: /path/to/image.png
-[image7]: /path/to/image.png
-[image8]: /path/to/image.png
-[image9]: /path/to/image.png
-[image10]: /path/to/image.png
+[image1]: Images/image-1.png
+[image2]: Images/image-2.png
+[image3]: Images/image-3.png
+[image4]: Images/image-4.png
+[image5]: Images/image-5.png
+[image6]: Images/image-6.png
+[image7]: Images/image-7.png
+[image8]: Images/image-8.png
+[image9]: Images/image-9.png
+[image10]: Images/image-10.png
 
 
 <!-- Refer to https://shields.io/ for more information and options about the shield links at the top of the ReadMe file -->
