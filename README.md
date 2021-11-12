@@ -3,7 +3,7 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/languages/code-size/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
 ![GitHub watchers](https://img.shields.io/github/watchers/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LaraCassandra/BotBuddy?color=%23021D30&style=flat-square)
