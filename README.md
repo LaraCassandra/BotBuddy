@@ -210,17 +210,6 @@ ew bot would have to be made.
 * Implementing `timekeepers` to decay the needs at different intervals without breaking the other timekeepers
 * Visual Studio `design preview` not working so I had to keep the emulator running to design my frontend
 
-### Reviews & Testing
-<!-- stipulate how you've conducted testing in the form of peer reviews, feedback and also functionality testing, like unit tests (if applicable) -->
-
-#### Feedback from Reviews
-
-Not applicable
-
-#### Unit Tests
-
-Not applicable
-
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
@@ -280,10 +269,10 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
 * Lecturer: Christof Enslin
-* [C# Documentation]([path/to/resource](https://docs.microsoft.com/en-us/dotnet/csharp/))
-* [Xamarin.Forms Documentation]([path/to/resource](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/))
-* [FreePik]([path/to/resource](https://www.freepik.com/home))
-* [FlatIcon]([path/to/resource](https://www.flaticon.com/))
+* [C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [Xamarin.Forms Documentation](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/)
+* [FreePik](https://www.freepik.com/home)
+* [FlatIcon](https://www.flaticon.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
