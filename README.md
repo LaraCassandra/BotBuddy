@@ -252,7 +252,7 @@ Contributions are what makes the open-source community such an amazing place to 
 <!-- AUTHORS -->
 ## Authors
 
-* **Your Name & Surname** - [LaraCassandra](https://github.com/LaraCassandra)
+* **Lara Cook** - [LaraCassandra](https://github.com/LaraCassandra)
 
 <!-- LICENSE -->
 ## License
